@@ -1,0 +1,50 @@
+{
+  "vbak": {
+    "business_name": "Sales Order Header",
+    "description": "SAP SD sales order header table. Contains vbeln (order number), kunnr (customer), erdat (creation date), netwr (net value), waerk (currency), auart (order type)."
+  },
+  "vbap": {
+    "business_name": "Sales Order Line Items",
+    "description": "SAP SD sales order line item table. Contains vbeln (order), posnr (item), matnr (material), menge (quantity), netpr (net price), werks (plant)."
+  },
+  "bkpf": {
+    "business_name": "Accounting Document Header",
+    "description": "SAP FI accounting document header. Contains belnr (document number), bukrs (company code), gjahr (fiscal year), bldat (document date), budat (posting date), blart (document type), xblnr (reference), monat (period)."
+  },
+  "bseg": {
+    "business_name": "Accounting Document Line Items",
+    "description": "SAP FI accounting document line items. Contains belnr, bukrs, gjahr, buzei (line), hkont (GL account), dmbtr (amount in local currency), shkzg (debit/credit indicator S=debit H=credit), kunnr (customer), lifnr (vendor)."
+  },
+  "ekko": {
+    "business_name": "Purchase Order Header",
+    "description": "SAP MM purchase order header. Contains ebeln (PO number), lifnr (vendor), ekorg (purchasing org), bedat (PO date), waers (currency)."
+  },
+  "ekpo": {
+    "business_name": "Purchase Order Line Items",
+    "description": "SAP MM purchase order items. Contains ebeln (PO number), ebelp (item), matnr (material), menge (quantity), netpr (net price), werks (plant), eindt (delivery date)."
+  },
+  "mseg": {
+    "business_name": "Material Document (Goods Movements)",
+    "description": "SAP MM material document segment. Records all goods movements. Contains mblnr (material document), zeile (item), bwart (movement type), matnr (material), menge (quantity), dmbtr (amount), werks (plant), ebeln (PO reference)."
+  },
+  "aufk": {
+    "business_name": "Production Order Header",
+    "description": "SAP PP production order master. Contains aufnr (order number), matnr (material), gamng (order quantity), igmng (confirmed quantity), gstrs (scheduled start), gltrs (scheduled finish), gstri (actual start), getri (actual finish)."
+  },
+  "kna1": {
+    "business_name": "Customer Master",
+    "description": "SAP SD/FI customer master data. Contains kunnr (customer number), name1 (name), land1 (country), ort01 (city), ktokd (account group)."
+  },
+  "lfa1": {
+    "business_name": "Vendor Master",
+    "description": "SAP MM/FI vendor master data. Contains lifnr (vendor number), name1 (name), land1 (country), ort01 (city), ktokk (account group)."
+  },
+  "mara": {
+    "business_name": "Material Master General",
+    "description": "SAP MM material master general data. Contains matnr (material number), matkl (material group), meins (base unit of measure), mtart (material type)."
+  },
+  "mard": {
+    "business_name": "Material Stock by Storage Location",
+    "description": "SAP MM stock levels per plant and storage location. Contains matnr, werks (plant), lgort (storage location), labst (unrestricted stock)."
+  }
+}
